@@ -1,0 +1,51 @@
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+#title-div {
+  margin-top: 50px;
+}
+
+.general-project p,
+.general-project h3 {
+  width: 80%;
+}
+
+.project-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .project-text-class {
+    margin-left: 100px;
+  }
+
+  .project-image-class {
+    margin-right: 100px;
+  }
+}
+
+.project-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .project-text-class {
+    margin-left: 100px;
+  }
+
+  .project-image-class {
+    margin-left: 100px;
+  }
+}
+
+.project-image-class {
+  width: 50%;
+}
+
+#project-div {
+  margin-top: 100px;
+}
