@@ -1,104 +1,104 @@
-h1,
-h2,
-h3,
-p {
-  text-align: center;
+/* Typography */
+h1, h2, h3, p { 
+  text-align: center; 
+} 
+
+/* Navigation Section */
+nav { 
+  margin-top: 25px; 
 }
 
-nav {
-  margin-top: 25px;
-
-  #nav-div {
-    display: flex;
-
-    #nav-title {
-      margin-right: auto;
-      margin-left: 5%;
-    }
-
-    #nav-buttons-div {
-      width: 25%;
-      display: flex;
-      justify-content: space-between;
-      margin-right: 5%;
-
-      button {
-        width: 100px;
-      }
-    }
-  }
+#nav-div { 
+  display: flex; 
 }
 
-#title-div {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
+#nav-title { 
+  margin-right: auto; 
+  margin-left: 5%; 
+} 
 
-  #title-text-div {
-    width: 40%;
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
-  #title-image-div {
-    width: 20%;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
+#nav-buttons-div { 
+  width: 25%; 
+  display: flex; 
+  justify-content: space-between; 
+  margin-right: 5%; 
 }
 
-.general-project p,
-.general-project h3 {
-  width: 80%;
+#nav-buttons-div button { 
+  width: 100px; 
+} 
+
+/* Title Section */
+#title-div { 
+  margin-top: 50px; 
+  display: flex; 
+  justify-content: center; 
 }
 
-.page-link {
-  h3,
-  p {
-    color: black;
-  }
+#title-text-div { 
+  width: 40%; 
+  display: block; 
+  margin-top: auto; 
+  margin-bottom: auto; 
+} 
+
+#title-image-div { 
+  width: 20%; 
 }
 
-.page-link:hover {
-  font-style: normal;
+#title-image-div img { 
+  width: 100%; 
+  height: auto; 
+} 
+
+/* General Project Layouts */
+.general-project p, 
+.general-project h3 { 
+  width: 80%; 
+} 
+
+.page-link h3, 
+.page-link p { 
+  color: black; 
+} 
+
+.page-link:hover { 
+  font-style: normal; 
+} 
+
+/* Specific Project Layouts */
+.project-right { 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
 }
 
-.project-right {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.project-right .project-text-class { 
+  margin-left: 100px; 
+} 
 
-  .project-text-class {
-    margin-left: 100px;
-  }
+.project-right .project-image-class { 
+  margin-right: 100px; 
+} 
 
-  .project-image-class {
-    margin-right: 100px;
-  }
+.project-left { 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
 }
 
-.project-left {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.project-left .project-text-class { 
+  margin-left: 100px; 
+} 
 
-  .project-text-class {
-    margin-left: 100px;
-  }
+.project-left .project-image-class { 
+  margin-left: 100px; 
+} 
 
-  .project-image-class {
-    margin-left: 100px;
-  }
-}
+.project-image-class { 
+  width: 50%; 
+} 
 
-.project-image-class {
-  width: 50%;
-}
-
-#project-div {
-  margin-top: 100px;
+#project-div { 
+  margin-top: 100px; 
 }
