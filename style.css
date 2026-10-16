@@ -110,3 +110,31 @@ nav {
 #project-div { 
   margin-top: 100px; 
 }
+
+
+/* Resume Page Layout */
+#resume-div {
+  margin-top: 100px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.heading {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.resume-item {
+  text-align: left;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.date {
+  font-style: italic;
+  text-align: right;
+}
