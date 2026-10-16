@@ -36,7 +36,7 @@ nav {
 }
 
 #title-text-div { 
-  width: 40%; 
+  width: 25%; 
   display: block; 
   margin-top: auto; 
   margin-bottom: auto; 
@@ -57,10 +57,18 @@ nav {
   width: 80%; 
 } 
 
+.general-project {
+  margin-top: 50px;
+}
+
 .page-link h3, 
 .page-link p { 
   color: black; 
 } 
+
+.page-link {
+  width: 50%;
+}
 
 .page-link:hover { 
   font-style: normal; 
@@ -96,7 +104,7 @@ nav {
 } 
 
 .project-image-class { 
-  width: 50%; 
+  width: 80%; 
 } 
 
 #project-div { 
