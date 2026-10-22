@@ -18,7 +18,7 @@ nav {
 } 
 
 #nav-buttons-div { 
-  width: 25%; 
+  width: 15%; 
   display: flex; 
   justify-content: space-between; 
   margin-right: 5%; 
@@ -29,24 +29,24 @@ nav {
 } 
 
 /* Title Section */
-#title-div { 
+.title-div { 
   margin-top: 50px; 
   display: flex; 
   justify-content: center; 
 }
 
-#title-text-div { 
+.title-text-div { 
   width: 25%; 
   display: block; 
   margin-top: auto; 
   margin-bottom: auto; 
 } 
 
-#title-image-div { 
+.title-image-div { 
   width: 20%; 
 }
 
-#title-image-div img { 
+.title-image-div img { 
   width: 100%; 
   height: auto; 
 } 
@@ -67,7 +67,7 @@ nav {
 } 
 
 .page-link {
-  width: 50%;
+  width: 70%;
 }
 
 .page-link:hover { 
@@ -111,6 +111,35 @@ nav {
   margin-top: 100px; 
 }
 
+#project-div h2 {
+  font-size: 3rem;
+}
+
+
+/* Project Page General Layout */
+.project-heading {
+  margin-top: 100px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.project-heading-video {
+  width: 100%;
+}
+
+.project-heading-video  video{
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-heading-information {
+  margin-top: 50px;
+}
 
 /* Resume Page Layout */
 #resume-div {
